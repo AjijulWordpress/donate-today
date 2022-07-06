@@ -15,7 +15,7 @@ font-family: 'Poppins', sans-serif; */
     width: 100%;
     height: 100vh;
     background-image: url(/Images/hero-image.png);
-    background-color: #0a192f17;
+    /* background-color: #0a192f17; */
 }
 
 .hero-firstDiv{
