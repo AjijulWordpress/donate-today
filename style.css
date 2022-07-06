@@ -14,18 +14,17 @@ font-family: 'Poppins', sans-serif; */
 .hero-section{
     width: 100%;
     height: 100vh;
-    /* background-image: url(Images/try.png); */
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.464), rgba(0, 0, 0, 0.538)), url(Images/hero-image.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.464), rgba(0, 0, 0, 0.538)), url(Images/try.png);
 }
 
 
-.hero-firstDiv{
+.hero-first-div{
     position: absolute;
-    top: 25%;
-    bottom: 25%;
+    top: 35%;
+    bottom: 15%;
     left: 25%;
     right: 25%;
     /* margin: auto;
@@ -36,29 +35,131 @@ font-family: 'Poppins', sans-serif; */
 
 .hero-header1-color{
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 70px;
+    text-align: center;
     color: #EC5301;
 }
 
 
 .hero-paragraph{
-    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
-    line-height: 23px;
-    color: #8892B0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
     padding-top: 20px;
     margin-bottom: 50px;
 }
 
 
 .universal-button{
-    color: #59E3C5;
+    display: block;
+    margin: 0 auto;
+    width: 95px;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     font-weight: 100;
-    border: 1.5px solid #59E3C5;
+    letter-spacing: 1.5px;
+    border: 1.5px solid #EC5301;
     border-radius: 5px;
+    background-color: #EC5301;
     padding: 10px 30px;
+}
+
+.donate-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-first-div{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-second-div{
+    /* margin: auto;
+    width: 60%; */
+}
+
+.donate-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.donate-paragraph{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.donate-third-div{
+    display: flex;
+    
+}
+
+.box-type{
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.box-different-type{
+    background-color: #FFEEEE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 30px;
+    margin: 10px;
+    border: 3px solid #EC5301;
+    border-radius: 5px;
+    color: #EC5301;
+}
+
+.donate-Forth-div{
+    
+}
+
+.donate-input-amount{
+    
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 35px;
+    color: #BDBDBD;
+    border-color: #BDBDBD;
+    background-color: #ffffff;
 }
