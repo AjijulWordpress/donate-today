@@ -14,11 +14,13 @@ font-family: 'Poppins', sans-serif; */
 .hero-section{
     width: 100%;
     height: 100vh;
-    background-image: url(/Images/hero-image.png);
+    /* background-image: url(Images/try.png); */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.464), rgba(0, 0, 0, 0.538)), url(Images/try.png);
 }
+
 
 .hero-firstDiv{
     position: absolute;
@@ -32,23 +34,12 @@ font-family: 'Poppins', sans-serif; */
     /* padding-top: 250px; */
 }
 
-.color-oswald{
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    color: #59E3C5;
-}
-
 .hero-header1-color{
     font-family: 'Poppins', sans-serif;
-    font-size: 60px;
-    color: #CCD6F6;
+    font-size: 50px;
+    color: #EC5301;
 }
 
-.hero-header2-color{
-    font-family: 'Poppins', sans-serif;
-    font-size: 60px;
-    color: #8892B0;
-}
 
 .hero-paragraph{
     width: 55%;
@@ -60,9 +51,6 @@ font-family: 'Poppins', sans-serif; */
     margin-bottom: 50px;
 }
 
-.universal-link{
-    color: #59E3C5;
-}
 
 .universal-button{
     color: #59E3C5;
