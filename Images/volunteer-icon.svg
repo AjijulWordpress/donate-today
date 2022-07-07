@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.01 102.97">
+  <defs>
+    <style>.cls-1{fill:#810c81;}.cls-2,.cls-3{fill:none;stroke:#810c81;stroke-width:3px;}.cls-3{stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Layer_2-2" data-name="Layer 2">
+        <g id="Layer_1-2-2" data-name="Layer 1-2">
+          <path class="cls-1" d="M48.74,87.11h0a1.27,1.27,0,0,1-.9-.38L37.22,76a8.09,8.09,0,0,1,11.5-11.39l.13.13.19-.19A8.1,8.1,0,1,1,60.42,76.05L49.64,86.74a1.26,1.26,0,0,1-.9.37"></path>
+          <path class="cls-2" d="M48.74,87.11h0a1.27,1.27,0,0,1-.9-.38L37.22,76a8.09,8.09,0,0,1,11.5-11.39l.13.13.19-.19A8.1,8.1,0,1,1,60.42,76.05L49.64,86.74a1.26,1.26,0,0,1-.9.37"></path>
+          <path class="cls-3" d="M25.46,68.88V17.15a6,6,0,1,1,12,0V7.5a6,6,0,0,1,12,0v4.83a6,6,0,0,1,12,0V26.8a6,6,0,1,1,12,0V87.69a13.77,13.77,0,0,1-13.63,13.78H38.3A13.78,13.78,0,0,1,27,95.56L2.75,60.62a6.25,6.25,0,0,1,10-7.5L25.46,68.88"></path>
+        </g>
+        <line class="cls-3" x1="37.51" y1="17.15" x2="37.51" y2="50.12"></line>
+        <line class="cls-3" x1="49.51" y1="12.33" x2="49.51" y2="50.3"></line>
+        <line class="cls-3" x1="61.51" y1="26.8" x2="61.51" y2="50.3"></line>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -169,13 +169,12 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .donate-plan-first-div{
-    max-width: 1500px;
-    width: 100%;
-    margin: auto;
-    height: 90vh;
     position:absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     margin: auto;
+    max-width: 1500px;
+    width: 100%;
+    height: 800px;
 }
 
 .donate-plan-third-div{
@@ -199,11 +198,13 @@ font-family: 'Poppins', sans-serif; */
 .box-image{
     width: 50px;
     height: 50px;
+    display: block;
 }
 
 .box-title{
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
+    text-align: left;
     color: #000000;
     padding-top: 20px;
 }
@@ -211,6 +212,7 @@ font-family: 'Poppins', sans-serif; */
 .box-paragraph{
     font-family: 'Karla', sans-serif;
     font-size: 20px;
+    text-align: left;
     line-height: 30px;
     color: #000000;
     padding-top: 20px;
@@ -229,28 +231,85 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .help-section{
-    background-color: #FFFFFF;
     width: 100%;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #ffffff;
+    text-align: center;
+    position:relative;
 }
 
-.donate-plan-first-div{
-    max-width: 1500px;
-    width: 100%;
+.help-first-div{
+    position:absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
     margin: auto;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    max-width: 1500px;
+    height: 1000px;
+}
+
+.arrow-image{
+    margin-top: 50px;
+    width: 100%;
+}
+
+#help_paragarph{
+    color: #810C81;
+}
+
+.help-forth-div{
+    max-width: 400px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+
+.help-box-image{
+    width: 70px;
+    height: 70px;
+}
+
+.help-box-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #810C81;
+    padding-top: 20px;
+}
+
+.help-box-paragraph{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.help-button{
+    display: block;
+    margin: 0 auto;
+    width: 115px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    border: 1.5px solid #810C81;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #810C81;
+    padding: 10px 30px;
+    margin-top: 20px;
 }
 
 .subscription-section{
     width: 100%;
     height: 70vh;
-    background-color: #ffffff;
+    background-color: #F9F9F9;
     text-align: center;
     position:relative;
 }
